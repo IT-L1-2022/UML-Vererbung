@@ -13,6 +13,8 @@ namespace UML_Vererbung
             einKunde2.SetID(6666);
             einKunde2.SetName("Hans");
 
+            Console.WriteLine("Hallo");
+
             einKunde.Ausgabe();
             einKunde2.Ausgabe();
         }
