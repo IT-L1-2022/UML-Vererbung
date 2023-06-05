@@ -14,6 +14,7 @@ namespace UML_Vererbung
             einKunde2.SetName("Hans");
 
             Console.WriteLine("Hallo");
+            Console.WriteLine("Hallo, ich bin Andreas");
 
             einKunde.Ausgabe();
             einKunde2.Ausgabe();
