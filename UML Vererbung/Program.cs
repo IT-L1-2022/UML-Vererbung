@@ -8,7 +8,13 @@ namespace UML_Vererbung
         {
             Console.WriteLine("Hello World!");
             Kunde einKunde = new Kunde();
+            Kunde einKunde2 = new Kunde();
+
+            einKunde2.SetID(6666);
+            einKunde2.SetName("Hans");
+
             einKunde.Ausgabe();
+            einKunde2.Ausgabe();
         }
     }
 }
